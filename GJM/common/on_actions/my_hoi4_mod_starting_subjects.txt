@@ -1,0 +1,524 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            # Preserve history-selected politics before changing subject relationships.
+            AST = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            BRM = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            CAN = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            COG = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            ICE = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            INS = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            JOR = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            KUW = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            LEB = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            MAL = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            MAN = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            MEN = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            NZL = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            OMA = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            PAL = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            PHI = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            RAJ = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            SAF = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            SLO = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            SYR = {
+                set_variable = { hmb_my_hoi4_mod_starting_subject_ruling = current_party_ideology_group }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_0 = party_popularity_100@democratic }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_1 = party_popularity_100@fascism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_2 = party_popularity_100@communism }
+                set_variable = { hmb_my_hoi4_mod_starting_subject_popularity_3 = party_popularity_100@neutrality }
+            }
+            ENG = {
+                set_autonomy = {
+                    target = AST
+                    autonomy_state = autonomy_free
+                }
+                set_autonomy = {
+                    target = BRM
+                    autonomy_state = autonomy_free
+                }
+                set_autonomy = {
+                    target = CAN
+                    autonomy_state = autonomy_free
+                }
+                set_autonomy = {
+                    target = JOR
+                    autonomy_state = autonomy_free
+                }
+                set_autonomy = {
+                    target = KUW
+                    autonomy_state = autonomy_free
+                }
+                set_autonomy = {
+                    target = MAL
+                    autonomy_state = autonomy_free
+                }
+                set_autonomy = {
+                    target = NZL
+                    autonomy_state = autonomy_free
+                }
+                set_autonomy = {
+                    target = OMA
+                    autonomy_state = autonomy_free
+                }
+                set_autonomy = {
+                    target = PAL
+                    autonomy_state = autonomy_free
+                }
+                set_autonomy = {
+                    target = RAJ
+                    autonomy_state = autonomy_free
+                }
+                set_autonomy = {
+                    target = SAF
+                    autonomy_state = autonomy_free
+                }
+            }
+            BEL = {
+                set_autonomy = {
+                    target = COG
+                    autonomy_state = autonomy_free
+                }
+            }
+            DEN = {
+                set_autonomy = {
+                    target = ICE
+                    autonomy_state = autonomy_free
+                }
+            }
+            HOL = {
+                set_autonomy = {
+                    target = INS
+                    autonomy_state = autonomy_free
+                }
+            }
+            FRA = {
+                set_autonomy = {
+                    target = LEB
+                    autonomy_state = autonomy_free
+                }
+                set_autonomy = {
+                    target = SYR
+                    autonomy_state = autonomy_free
+                }
+            }
+            JAP = {
+                set_autonomy = {
+                    target = MAN
+                    autonomy_state = autonomy_free
+                }
+                set_autonomy = {
+                    target = MEN
+                    autonomy_state = autonomy_free
+                }
+            }
+            USA = {
+                set_autonomy = {
+                    target = PHI
+                    autonomy_state = autonomy_free
+                }
+            }
+            GER = {
+                set_autonomy = {
+                    target = SLO
+                    autonomy_state = autonomy_free
+                }
+            }
+            # Restore once at startup, not on daily ticks or after gameplay effects.
+            AST = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            BRM = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            CAN = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            COG = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            ICE = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            INS = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            JOR = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            KUW = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            LEB = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            MAL = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            MAN = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            MEN = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            NZL = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            OMA = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            PAL = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            PHI = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            RAJ = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            SAF = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            SLO = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+            SYR = {
+                set_politics = { ruling_party = var:hmb_my_hoi4_mod_starting_subject_ruling }
+                set_popularities = {
+                    democratic = hmb_my_hoi4_mod_starting_subject_popularity_0
+                    fascism = hmb_my_hoi4_mod_starting_subject_popularity_1
+                    communism = hmb_my_hoi4_mod_starting_subject_popularity_2
+                    neutrality = hmb_my_hoi4_mod_starting_subject_popularity_3
+                }
+                clear_variable = hmb_my_hoi4_mod_starting_subject_ruling
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_0
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_1
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_2
+                clear_variable = hmb_my_hoi4_mod_starting_subject_popularity_3
+            }
+        }
+    }
+}

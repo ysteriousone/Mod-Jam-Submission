@@ -1,0 +1,17 @@
+state = {
+    id = 767
+    name = STATE_767
+    manpower = 8143
+    state_category = wasteland
+    impassable = yes
+    force_link_ownership_to = 551
+    history = {
+        buildings = {
+            infrastructure = 0
+        }
+        owner = KAB
+        add_core_of = KAB
+    }
+    provinces = { 7987 8103 10900 }
+    local_supplies = 0.0
+}

@@ -1,0 +1,21 @@
+state = {
+    id = 163
+    name = STATE_163
+    manpower = 18000
+    state_category = enclave
+    history = {
+        victory_points = { 3943 5 }
+        buildings = {
+            infrastructure = 3
+            3943 = {
+                naval_base = 1
+            }
+        }
+        start_resistance = CRO
+        set_compliance = 70
+        owner = HAB
+        add_core_of = HAB
+    }
+    provinces = { 3943 }
+    local_supplies = 0.0
+}

@@ -1,0 +1,18 @@
+state = {
+    id = 847
+    name = STATE_847
+    manpower = 178429
+    state_category = pastoral
+    resources = {
+    }
+    history = {
+        buildings = {
+            infrastructure = 1
+            industrial_complex = 1
+        }
+        owner = JUR
+        add_core_of = JUR
+    }
+    provinces = { 636 9587 3612 9618 }
+    local_supplies = 0.0
+}

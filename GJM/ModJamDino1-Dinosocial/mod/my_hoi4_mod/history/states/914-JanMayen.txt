@@ -1,0 +1,17 @@
+state = {
+    id = 914
+    name = STATE_914
+    manpower = 10
+    state_category = tiny_island
+    history = {
+        buildings = {
+            13272 = {
+                naval_base = 1
+            }
+        }
+        owner = JAA
+        add_core_of = JAA
+    }
+    provinces = { 13272 }
+    local_supplies = 0.000
+}

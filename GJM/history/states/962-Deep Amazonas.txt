@@ -1,0 +1,15 @@
+state = {
+    id = 962
+    name = STATE_962
+    provinces = { 13330 }
+    history = {
+        owner = AMA
+        add_core_of = AMA
+    }
+    manpower = 10348
+    impassable = yes
+    force_link_ownership_to = 495
+    buildings_max_level_factor = 1.000
+    local_supplies = 0.000
+    state_category = wasteland
+}

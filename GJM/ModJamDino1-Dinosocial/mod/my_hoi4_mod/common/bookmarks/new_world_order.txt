@@ -1,0 +1,34 @@
+bookmarks = {
+    bookmark = {
+        name = new_world_order_name
+        desc = new_world_order_desc
+        date = 1936.1.1.12
+        picture = "GFX_select_date_1936"
+        default_country = "AMA"
+        default = yes
+        filters = { new_content continent }
+        AMA = {
+            history = new_world_order_AMA_history
+            ideology = fascism
+            version = base_game
+        }
+        BAJ = {
+            history = new_world_order_BAJ_history
+            ideology = democratic
+            version = base_game
+        }
+        SVE = {
+            history = new_world_order_SVE_history
+            ideology = neutrality
+            version = base_game
+        }
+        FAA = {
+            history = new_world_order_FAA_history
+            ideology = communism
+            version = base_game
+        }
+        effect = {
+            randomize_weather = 12345
+        }
+    }
+}

@@ -1,0 +1,16 @@
+state = {
+    id = 866
+    name = STATE_866
+    manpower = 10000
+    provinces = { 761 763 3736 4753 13315 }
+    history = {
+        buildings = {
+            infrastructure = 1
+        }
+        owner = MAA
+        add_core_of = MAA
+    }
+    state_category = pastoral
+    buildings_max_level_factor = 1.000
+    local_supplies = 0.000
+}

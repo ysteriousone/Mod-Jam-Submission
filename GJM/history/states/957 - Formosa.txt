@@ -1,0 +1,20 @@
+state = {
+    id = 957
+    name = STATE_957
+    manpower = 500000
+    state_category = pastoral
+    resources = {
+        tungsten = 5
+        steel = 2
+    }
+    history = {
+        buildings = {
+            infrastructure = 1
+        }
+        victory_points = { 12922 1 }
+        owner = CER
+        add_core_of = CAD
+    }
+    provinces = { 10944 12922 12943 }
+    local_supplies = 0.0
+}

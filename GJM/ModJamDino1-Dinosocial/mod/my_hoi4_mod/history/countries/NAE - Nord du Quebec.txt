@@ -1,0 +1,19 @@
+capital = 466
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.5
+set_war_support = 0.5
+
+# Politics selected in the builder
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1936.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    democratic = 11
+    fascism = 16
+    communism = 7
+    neutrality = 66
+}

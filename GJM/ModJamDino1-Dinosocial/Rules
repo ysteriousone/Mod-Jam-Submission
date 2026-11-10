@@ -1,0 +1,15 @@
+📋 Rules & Submission Guidelines
+Nation Limit: Focus strictly on two playable countries. Small changes to surrounding neighbors for balance/event triggers are fine, but major content must be dedicated to your chosen pair.
+Stability First: Ensure your mod boots without crashing on game start and can run smoothly for at least 3–5 in-game years. Check your error.log!
+Mod Packaging & Requirements:
+Package your submission as a clean .zip containing your mod folder and a valid .mod descriptor file.
+Include clear installation instructions in your itch.io project description (e.g., dropping it into Documents/Paradox Interactive/Hearts of Iron IV/mod/).
+Include your Discord Username somewhere on your project submission page so we can contact you if you win a prize!
+Include a Video showcase of your mod.
+Graphics & Flags: Custom flags, custom portraits, and new GFX are not required! Feel free to rely entirely on vanilla game assets or focus purely on writing great focus trees and code.
+Localization: All focus names, events, decisions, and country names must have proper localization (avoid raw keys like GER_new_order_focus_desc showing up in-game).
+You may rename countries and add ideologies as long as the base name remains.
+
+Team Size: Solo developers or teams up to 3 people are welcome. Credit all contributors on the submission page.
+Fair Play & Originality: Focus trees, scripts, and narratives must be created during the jam window.
+

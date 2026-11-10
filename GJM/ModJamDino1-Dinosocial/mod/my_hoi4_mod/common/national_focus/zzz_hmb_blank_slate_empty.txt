@@ -1,0 +1,797 @@
+# Prevents the installed generic tree from appearing on blank-slate countries
+# that do not have an authored project tree yet.
+focus_tree = {
+    id = hmb_blank_slate_empty
+    default = no
+    country = {
+        factor = 0
+        modifier = {
+            add = 1000
+            tag = AAA
+        }
+        modifier = {
+            add = 1000
+            tag = AAB
+        }
+        modifier = {
+            add = 1000
+            tag = AAC
+        }
+        modifier = {
+            add = 1000
+            tag = AAD
+        }
+        modifier = {
+            add = 1000
+            tag = AKH
+        }
+        modifier = {
+            add = 1000
+            tag = AKM
+        }
+        modifier = {
+            add = 1000
+            tag = ALA
+        }
+        modifier = {
+            add = 1000
+            tag = ALD
+        }
+        modifier = {
+            add = 1000
+            tag = ALM
+        }
+        modifier = {
+            add = 1000
+            tag = AMA
+        }
+        modifier = {
+            add = 1000
+            tag = AME
+        }
+        modifier = {
+            add = 1000
+            tag = AND
+        }
+        modifier = {
+            add = 1000
+            tag = ARK
+        }
+        modifier = {
+            add = 1000
+            tag = ASC
+        }
+        modifier = {
+            add = 1000
+            tag = ASI
+        }
+        modifier = {
+            add = 1000
+            tag = ATA
+        }
+        modifier = {
+            add = 1000
+            tag = AZE
+        }
+        modifier = {
+            add = 1000
+            tag = AZO
+        }
+        modifier = {
+            add = 1000
+            tag = BAA
+        }
+        modifier = {
+            add = 1000
+            tag = BAB
+        }
+        modifier = {
+            add = 1000
+            tag = BAC
+        }
+        modifier = {
+            add = 1000
+            tag = BAF
+        }
+        modifier = {
+            add = 1000
+            tag = BAG
+        }
+        modifier = {
+            add = 1000
+            tag = BAJ
+        }
+        modifier = {
+            add = 1000
+            tag = BAL
+        }
+        modifier = {
+            add = 1000
+            tag = BER
+        }
+        modifier = {
+            add = 1000
+            tag = BIS
+        }
+        modifier = {
+            add = 1000
+            tag = BOD
+        }
+        modifier = {
+            add = 1000
+            tag = BOM
+        }
+        modifier = {
+            add = 1000
+            tag = BUR
+        }
+        modifier = {
+            add = 1000
+            tag = CAA
+        }
+        modifier = {
+            add = 1000
+            tag = CAB
+        }
+        modifier = {
+            add = 1000
+            tag = CAC
+        }
+        modifier = {
+            add = 1000
+            tag = CAD
+        }
+        modifier = {
+            add = 1000
+            tag = CAE
+        }
+        modifier = {
+            add = 1000
+            tag = CAG
+        }
+        modifier = {
+            add = 1000
+            tag = CAH
+        }
+        modifier = {
+            add = 1000
+            tag = CAI
+        }
+        modifier = {
+            add = 1000
+            tag = CAL
+        }
+        modifier = {
+            add = 1000
+            tag = CAP
+        }
+        modifier = {
+            add = 1000
+            tag = CAS
+        }
+        modifier = {
+            add = 1000
+            tag = CEA
+        }
+        modifier = {
+            add = 1000
+            tag = CER
+        }
+        modifier = {
+            add = 1000
+            tag = CHE
+        }
+        modifier = {
+            add = 1000
+            tag = COC
+        }
+        modifier = {
+            add = 1000
+            tag = COQ
+        }
+        modifier = {
+            add = 1000
+            tag = CRE
+        }
+        modifier = {
+            add = 1000
+            tag = CTE
+        }
+        modifier = {
+            add = 1000
+            tag = CUN
+        }
+        modifier = {
+            add = 1000
+            tag = DAA
+        }
+        modifier = {
+            add = 1000
+            tag = DAB
+        }
+        modifier = {
+            add = 1000
+            tag = DHO
+        }
+        modifier = {
+            add = 1000
+            tag = DNI
+        }
+        modifier = {
+            add = 1000
+            tag = DRE
+        }
+        modifier = {
+            add = 1000
+            tag = DUT
+        }
+        modifier = {
+            add = 1000
+            tag = EAS
+        }
+        modifier = {
+            add = 1000
+            tag = EQU
+        }
+        modifier = {
+            add = 1000
+            tag = ERE
+        }
+        modifier = {
+            add = 1000
+            tag = FAA
+        }
+        modifier = {
+            add = 1000
+            tag = FAR
+        }
+        modifier = {
+            add = 1000
+            tag = GAA
+        }
+        modifier = {
+            add = 1000
+            tag = GAC
+        }
+        modifier = {
+            add = 1000
+            tag = GAD
+        }
+        modifier = {
+            add = 1000
+            tag = GAE
+        }
+        modifier = {
+            add = 1000
+            tag = GOI
+        }
+        modifier = {
+            add = 1000
+            tag = GOR
+        }
+        modifier = {
+            add = 1000
+            tag = GYE
+        }
+        modifier = {
+            add = 1000
+            tag = HAA
+        }
+        modifier = {
+            add = 1000
+            tag = HAB
+        }
+        modifier = {
+            add = 1000
+            tag = HAC
+        }
+        modifier = {
+            add = 1000
+            tag = HAT
+        }
+        modifier = {
+            add = 1000
+            tag = HER
+        }
+        modifier = {
+            add = 1000
+            tag = HOK
+        }
+        modifier = {
+            add = 1000
+            tag = HUB
+        }
+        modifier = {
+            add = 1000
+            tag = IAA
+        }
+        modifier = {
+            add = 1000
+            tag = ISL
+        }
+        modifier = {
+            add = 1000
+            tag = IVA
+        }
+        modifier = {
+            add = 1000
+            tag = IWO
+        }
+        modifier = {
+            add = 1000
+            tag = JAA
+        }
+        modifier = {
+            add = 1000
+            tag = JAL
+        }
+        modifier = {
+            add = 1000
+            tag = JIA
+        }
+        modifier = {
+            add = 1000
+            tag = JUR
+        }
+        modifier = {
+            add = 1000
+            tag = KAA
+        }
+        modifier = {
+            add = 1000
+            tag = KAB
+        }
+        modifier = {
+            add = 1000
+            tag = KAE
+        }
+        modifier = {
+            add = 1000
+            tag = KAF
+        }
+        modifier = {
+            add = 1000
+            tag = KAM
+        }
+        modifier = {
+            add = 1000
+            tag = KAV
+        }
+        modifier = {
+            add = 1000
+            tag = KER
+        }
+        modifier = {
+            add = 1000
+            tag = KIR
+        }
+        modifier = {
+            add = 1000
+            tag = KUN
+        }
+        modifier = {
+            add = 1000
+            tag = LAB
+        }
+        modifier = {
+            add = 1000
+            tag = LAC
+        }
+        modifier = {
+            add = 1000
+            tag = LAD
+        }
+        modifier = {
+            add = 1000
+            tag = LAE
+        }
+        modifier = {
+            add = 1000
+            tag = LIN
+        }
+        modifier = {
+            add = 1000
+            tag = LOU
+        }
+        modifier = {
+            add = 1000
+            tag = LUN
+        }
+        modifier = {
+            add = 1000
+            tag = LUZ
+        }
+        modifier = {
+            add = 1000
+            tag = MAA
+        }
+        modifier = {
+            add = 1000
+            tag = MAB
+        }
+        modifier = {
+            add = 1000
+            tag = MAE
+        }
+        modifier = {
+            add = 1000
+            tag = MAG
+        }
+        modifier = {
+            add = 1000
+            tag = MAH
+        }
+        modifier = {
+            add = 1000
+            tag = MAR
+        }
+        modifier = {
+            add = 1000
+            tag = MAU
+        }
+        modifier = {
+            add = 1000
+            tag = MER
+        }
+        modifier = {
+            add = 1000
+            tag = MIC
+        }
+        modifier = {
+            add = 1000
+            tag = MID
+        }
+        modifier = {
+            add = 1000
+            tag = MIK
+        }
+        modifier = {
+            add = 1000
+            tag = MIR
+        }
+        modifier = {
+            add = 1000
+            tag = NAA
+        }
+        modifier = {
+            add = 1000
+            tag = NAB
+        }
+        modifier = {
+            add = 1000
+            tag = NAC
+        }
+        modifier = {
+            add = 1000
+            tag = NAD
+        }
+        modifier = {
+            add = 1000
+            tag = NAE
+        }
+        modifier = {
+            add = 1000
+            tag = NAG
+        }
+        modifier = {
+            add = 1000
+            tag = NAK
+        }
+        modifier = {
+            add = 1000
+            tag = NAL
+        }
+        modifier = {
+            add = 1000
+            tag = NAM
+        }
+        modifier = {
+            add = 1000
+            tag = NAN
+        }
+        modifier = {
+            add = 1000
+            tag = NAU
+        }
+        modifier = {
+            add = 1000
+            tag = NEW
+        }
+        modifier = {
+            add = 1000
+            tag = NOV
+        }
+        modifier = {
+            add = 1000
+            tag = NWT
+        }
+        modifier = {
+            add = 1000
+            tag = OAA
+        }
+        modifier = {
+            add = 1000
+            tag = OAB
+        }
+        modifier = {
+            add = 1000
+            tag = OAC
+        }
+        modifier = {
+            add = 1000
+            tag = OAD
+        }
+        modifier = {
+            add = 1000
+            tag = OAE
+        }
+        modifier = {
+            add = 1000
+            tag = OKI
+        }
+        modifier = {
+            add = 1000
+            tag = OLO
+        }
+        modifier = {
+            add = 1000
+            tag = OLT
+        }
+        modifier = {
+            add = 1000
+            tag = ORA
+        }
+        modifier = {
+            add = 1000
+            tag = ORE
+        }
+        modifier = {
+            add = 1000
+            tag = ORI
+        }
+        modifier = {
+            add = 1000
+            tag = OTA
+        }
+        modifier = {
+            add = 1000
+            tag = PAA
+        }
+        modifier = {
+            add = 1000
+            tag = PAB
+        }
+        modifier = {
+            add = 1000
+            tag = PEG
+        }
+        modifier = {
+            add = 1000
+            tag = PET
+        }
+        modifier = {
+            add = 1000
+            tag = PIL
+        }
+        modifier = {
+            add = 1000
+            tag = PIT
+        }
+        modifier = {
+            add = 1000
+            tag = REU
+        }
+        modifier = {
+            add = 1000
+            tag = RIO
+        }
+        modifier = {
+            add = 1000
+            tag = SAA
+        }
+        modifier = {
+            add = 1000
+            tag = SAC
+        }
+        modifier = {
+            add = 1000
+            tag = SAD
+        }
+        modifier = {
+            add = 1000
+            tag = SAG
+        }
+        modifier = {
+            add = 1000
+            tag = SAH
+        }
+        modifier = {
+            add = 1000
+            tag = SAI
+        }
+        modifier = {
+            add = 1000
+            tag = SAJ
+        }
+        modifier = {
+            add = 1000
+            tag = SAK
+        }
+        modifier = {
+            add = 1000
+            tag = SAL
+        }
+        modifier = {
+            add = 1000
+            tag = SAN
+        }
+        modifier = {
+            add = 1000
+            tag = SAS
+        }
+        modifier = {
+            add = 1000
+            tag = SAT
+        }
+        modifier = {
+            add = 1000
+            tag = SAV
+        }
+        modifier = {
+            add = 1000
+            tag = SEV
+        }
+        modifier = {
+            add = 1000
+            tag = SEY
+        }
+        modifier = {
+            add = 1000
+            tag = SML
+        }
+        modifier = {
+            add = 1000
+            tag = SMO
+        }
+        modifier = {
+            add = 1000
+            tag = SOC
+        }
+        modifier = {
+            add = 1000
+            tag = SOU
+        }
+        modifier = {
+            add = 1000
+            tag = SVE
+        }
+        modifier = {
+            add = 1000
+            tag = SYK
+        }
+        modifier = {
+            add = 1000
+            tag = TAA
+        }
+        modifier = {
+            add = 1000
+            tag = TAB
+        }
+        modifier = {
+            add = 1000
+            tag = TAC
+        }
+        modifier = {
+            add = 1000
+            tag = TAD
+        }
+        modifier = {
+            add = 1000
+            tag = TAE
+        }
+        modifier = {
+            add = 1000
+            tag = TLE
+        }
+        modifier = {
+            add = 1000
+            tag = TOC
+        }
+        modifier = {
+            add = 1000
+            tag = TOK
+        }
+        modifier = {
+            add = 1000
+            tag = TRN
+        }
+        modifier = {
+            add = 1000
+            tag = UAA
+        }
+        modifier = {
+            add = 1000
+            tag = UCA
+        }
+        modifier = {
+            add = 1000
+            tag = UDA
+        }
+        modifier = {
+            add = 1000
+            tag = ULA
+        }
+        modifier = {
+            add = 1000
+            tag = UNI
+        }
+        modifier = {
+            add = 1000
+            tag = URU
+        }
+        modifier = {
+            add = 1000
+            tag = VAA
+        }
+        modifier = {
+            add = 1000
+            tag = VAB
+        }
+        modifier = {
+            add = 1000
+            tag = VAC
+        }
+        modifier = {
+            add = 1000
+            tag = VAL
+        }
+        modifier = {
+            add = 1000
+            tag = VEL
+        }
+        modifier = {
+            add = 1000
+            tag = VIC
+        }
+        modifier = {
+            add = 1000
+            tag = WAB
+        }
+        modifier = {
+            add = 1000
+            tag = WAK
+        }
+        modifier = {
+            add = 1000
+            tag = WEL
+        }
+        modifier = {
+            add = 1000
+            tag = WUW
+        }
+        modifier = {
+            add = 1000
+            tag = YAA
+        }
+        modifier = {
+            add = 1000
+            tag = YAB
+        }
+        modifier = {
+            add = 1000
+            tag = YAC
+        }
+        modifier = {
+            add = 1000
+            tag = YAD
+        }
+        modifier = {
+            add = 1000
+            tag = YUK
+        }
+        modifier = {
+            add = 1000
+            tag = YUL
+        }
+    }
+}

@@ -1,0 +1,19 @@
+state = {
+    id = 624
+    name = STATE_624
+    manpower = 1117695
+    resources = {
+        steel = 7
+    }
+    state_category = town
+    history = {
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+        }
+        owner = LUZ
+        add_core_of = LUZ
+    }
+    provinces = { 1372 4228 4377 7307 10306 12279 }
+    local_supplies = 0.0
+}

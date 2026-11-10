@@ -1,0 +1,27 @@
+ideas = {
+    country = {
+    }
+}
+
+ideas = {
+    country = {
+        USA_monroe_doctrine_idea = {
+            picture = generic_production
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = no
+            }
+        }
+        USA_monroe_doctrine_enforcer = {
+            picture = generic_production
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = no
+            }
+        }
+    }
+}

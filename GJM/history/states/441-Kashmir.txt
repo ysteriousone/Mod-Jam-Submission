@@ -1,0 +1,18 @@
+state = {
+    id = 441
+    name = STATE_441
+    manpower = 2598027
+    state_category = rural
+    history = {
+        buildings = {
+            infrastructure = 1
+        }
+        victory_points = { 12754 2 }
+        victory_points = { 8005 1 }
+        owner = UNI
+        add_core_of = NAG
+        add_core_of = UNI
+    }
+    provinces = { 5042 7273 7316 8005 10905 12754 12884 }
+    local_supplies = 0.0
+}
